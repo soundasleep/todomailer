@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <EditTextPreference
+        android:key="pref_to"
+        android:title="@string/pref_to"
+        android:summary="@string/pref_to_summary"
+        />
+    
+    <PreferenceCategory
+        android:title="@string/pref_category_smtp"
+        android:key="pref_category_smtp">
+    
+	    <EditTextPreference
+	        android:key="pref_smtp_host"
+	        android:title="@string/pref_smtp_host" 
+	        />
+	    
+	    <CheckBoxPreference 
+	        android:key="pref_smtp_ssl"
+	        android:title="@string/pref_smtp_ssl"
+	        />
+	    
+	    <EditTextPreference
+	        android:key="pref_smtp_user"
+	        android:title="@string/pref_smtp_user" 
+	        />
+	    
+	    <EditTextPreference
+	        android:key="pref_smtp_pass"
+	        android:title="@string/pref_smtp_pass" 
+	        />
+	
+	</PreferenceCategory>
+    
+</PreferenceScreen>

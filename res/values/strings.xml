@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Intents and menu items -->
     <string name="app_name">Todo Mailer</string>
     <string name="action_settings">Settings</string>
+    <string name="app_name_settings">Settings</string>
+    
+    <!-- MainActivity -->
     <string name="edit_subject">Subject</string>
     <string name="edit_message">Message</string>
     <string name="button_send">Send</string>
+    
+    <string name="pref_to">Send to</string>
+    <string name="pref_to_summary">The address that Todos will be sent to.</string>
+
+    <string name="pref_category_smtp">SMTP Settings</string>
+    <string name="pref_smtp_host">Host</string>
+    <string name="pref_smtp_ssl">Use SSL</string>
+    <string name="pref_smtp_user">Username</string>
+    <string name="pref_smtp_pass">Password</string>
     
 </resources>
